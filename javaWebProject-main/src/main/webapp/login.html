@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .form {
+            padding: 10px;
+            margin: 10%;
+            border: solid black 1px;
+            border-radius: 10px;
+            width: 50%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        form {
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="form">
+            <h2 style="background-color:#0095b6; padding: 10px; border: solid black 1px;border-radius: 10px;">Login</h2>
+            
+            <form action="login.jsp" method="post">
+
+                <label for="email"><h3>Email:</h3></label>
+                <input type="email" name="email" required style="width: 80%; margin: 10px;padding: 10px;"><br>
+
+                <label for="password" ><h3>Password:</h3></label>
+                <input type="password" name="password" required style="width: 80%; margin: 10px;padding: 10px;"><br>
+
+        <p>If you don't have account <a href="signin.html">Signin</a></p>
+
+                <input type="submit" value="Login" style="padding: 20px; background-color: #FBAB7E; background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); margin:10px; border-radius:10px; width:20%">
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>

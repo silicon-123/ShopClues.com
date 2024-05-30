@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ header {
+            background-color: #333;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 1fr auto; /* One part takes the remaining space, and the other part is auto-sized */
+            align-items: center;
+        }
+
+        nav {
+            text-align: right;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            }
+       section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 10px;
+        }
+                
+       
+        .dress {
+            width: 200px;
+            margin: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .dress:hover {
+            transform: scale(1.05);
+        }
+
+        .dress img {
+            width: 100%;
+            height: auto;
+        }
+
+        .dress h2 {
+            margin-top: 0;
+        }
+
+        .dress p {
+            color: #666;
+        }
+
+.hero-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #eee;
+}
+
+.btn-shop-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.featured-products, .new-arrivals {
+    padding: 20px;
+}
+
+footer {
+      background-color: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 10px;
+    }

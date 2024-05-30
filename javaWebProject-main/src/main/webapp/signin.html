@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+		.form
+		{
+			padding: 10px;
+			margin:10%;
+			
+			border: solid black 1px;
+			border-radius: 10px;
+			width: 50%;
+			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+			
+			
+		}
+		form
+		{
+			padding: 30px;
+		}
+	</style>
+</head>
+<body class="form">
+    <h2 style="background-color: #0095b6; padding: 10px; border: solid black 1px;border-radius: 10px; margin-top: 0%;;">Sign Up</h2>
+    <form action="signin.jsp" method="post">
+        <label for="name"><h3>Name:</h3></label>
+        <input type="text" name="name" required style="width: 80%; margin: 2px;padding: 10px;" ><br>
+        
+        <label for="email"><h3>Email:</h3></label>
+        <input type="email" name="email" required style="width: 80%; margin: 2px;padding: 10px;"><br>
+        
+        <label for="password"><h3>Password:</h3></label>
+        <input type="password" name="password" required style="width: 80%; margin: 2px;padding: 10px;"><br>
+        
+        <label for="address"><h3>Address:</h3></label>
+        <textarea name="address" required style="width: 80%; margin: 10px;padding: 2px;"></textarea><br>
+        
+        <input type="submit" value="Sign Up" style="padding: 20px;  background-color: #FBAB7E;background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); margin:10px;
+         border-radius:10px;width:20%">
+    </form>
+</body>
+</html>
